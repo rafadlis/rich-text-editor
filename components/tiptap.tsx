@@ -15,7 +15,7 @@ export default function Tiptap({ className }: { className?: string }) {
       Text,
       Heading.configure({ levels: [1, 2, 3] }),
     ],
-    content: "<p>Hello World! 🌎️</p>",
+    content: "<p>Hello World! 🌎️ <br />You can edit me!</p>",
   });
 
   if (!editor) return null;
